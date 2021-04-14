@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="zalo_info_follower_view_action" model="ir.actions.act_window">
+            <field name="name">zalo_bot_message</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">zalo.info.follower</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+        <record id="zalo_info_follower_view_tree" model="ir.ui.view">
+            <field name="name">zalo_info_follower_view_tree</field>
+            <field name="model">zalo.info.follower</field>
+            <field name="arch" type="xml">
+                <tree string="">
+                    <field name="follower_id"/>
+                </tree>
+            </field>
+        </record>
+
+    </data>
+</odoo>

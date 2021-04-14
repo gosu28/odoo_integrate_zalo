@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_zalo_form_message,zalo.form.message,model_zalo_form_message,base.group_user,1,1,1,1
+access_zalo_message_history,message.history,model_zalo_message_history,base.group_user,1,1,1,1
+access_zalo_bot_question,zalo.bot.question,model_zalo_bot_question,base.group_user,1,1,1,1
+access_zalo_info_follower,zalo.info.follower,model_zalo_info_follower,base.group_user,1,1,1,1
+access_zalo_info_message,zalo.info.message,model_zalo_info_message,base.group_user,1,1,1,1
+
