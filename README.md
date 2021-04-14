@@ -1,1 +1,1 @@
-# odoo_integreate_zalo
+# Note: Rename the module to 'zalo_message'
